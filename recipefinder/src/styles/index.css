@@ -2,3 +2,34 @@ body{
   text-align: center;
   padding: 5%;
 }
+
+.recipe-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.recipe-text{
+  display: inline-block;
+  text-align: left;
+  padding-right: 10px;
+  width: 400px;
+}
+
+.recipe-image{
+  display: inline-block;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.star{
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 15px;
+}
