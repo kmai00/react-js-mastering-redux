@@ -1,0 +1,13 @@
+body{
+  text-align: center;
+  padding: 5%;
+  background-color: #111;
+  color: white;
+  font-family: Arial;
+}
+
+.meme-button{
+  cusor: pointer;
+  font-style: italic;
+  padding:10px;
+}
