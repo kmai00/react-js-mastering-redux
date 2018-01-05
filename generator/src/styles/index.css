@@ -32,6 +32,15 @@ body{
   filter: brightness(90%);
 }
 
+.my-meme-img{
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  width: 220px;
+  border-radius: 4px;
+  border: 3px solid white;
+}
+
 .meme-txt{
   width:150px;
   text-align: center;
@@ -53,6 +62,7 @@ body{
   animation-name: darken;
   animation-duration: 1s;
 }
+
 
 @keyframes darken{
   from {filter: brightness(90%)};
